@@ -2,7 +2,8 @@ body {
   background: url(images/light-back.png);
   background-repeat: repeat;
   background-color: black;
-  text-align: center;
+  display: grid;
+  place-items: center;
   color: #d9d9d9;
   font-family: 'Orbitron', sans-serif;
 }
@@ -11,8 +12,8 @@ body {
   position: relative;
   margin: auto;
   border: 6px solid black;
-  height: 32vw;
-  width: 32vw;
+  height: 31vw;
+  width: 31vw;
   background: url(images/clock.jpg) no-repeat;
   background-size: 100%;
   border-radius: 20%;
@@ -57,6 +58,8 @@ body {
 
 .text {
   margin-top: 5%;
+  display: grid;
+  place-items: center;
 }
 
 .time_text {
@@ -65,14 +68,18 @@ body {
   letter-spacing: 6px;
   margin-bottom: 0;
   margin-top: 0;
+  background-color: black;
+  width: 110%;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #fff;
 }
 
 .date_text{
-  margin-top: 5px;
-  margin-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 h1{
-  margin-top: 5px;
-  margin-bottom: 5px
+  margin: 4px 0 5px 0;
 }
