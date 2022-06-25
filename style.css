@@ -63,4 +63,16 @@ body {
   font-size: 30px;
   word-spacing: 10px;
   letter-spacing: 6px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.date_text{
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+h1{
+  margin-top: 5px;
+  margin-bottom: 5px
 }
